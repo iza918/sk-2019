@@ -11,7 +11,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
  
 
-![Diagram](diag.png)
+![Diagram](diag2.png)
 
 ### 1)Ustalenie maski podsieci dla
 
