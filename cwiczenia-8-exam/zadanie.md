@@ -23,6 +23,7 @@ PC0
 ---------                                       
 ``eth0`` - domyślny  
 ``eth1`` - 172.22.160.1/23  (ip addr add 172.22.128.1/23 dev enp0s8)
+
 ``eth2`` - 172.22.128.1/19  (ip addr add 172.22.160.1/19 dev enp0s9)
  
 PC1
