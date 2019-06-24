@@ -23,6 +23,7 @@ PC0
 ---------                                       
 ``eth0`` - domyślny  
 ``eth1`` - 172.22.128.1/23  (ip addr add 172.22.128.1/23 dev enp0s8)
+
 ``eth2`` - 172.22.160.1/19  (ip addr add 172.22.160.1/19 dev enp0s9)
 ip link set ``nazwa urządzenia`` up - "podniesienie" urządzenia (po dodaniu PC1 i PC2)
  
@@ -55,5 +56,6 @@ echo 1 > /proc/sys/net/ipv4/ip_forward (komunikacja PC1 <-> PC2)
 Ustawienia reguły masquerade w PC0:
 ---------
 iptables -t nat -A POSTROUTING -s 172.22.128.0/23 -o enp0s3 -j MASQUERADE
+
 iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE
 (udostępnienie internetu dla podsieci)
