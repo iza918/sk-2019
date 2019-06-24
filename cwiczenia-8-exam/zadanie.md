@@ -50,3 +50,6 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
     iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE
      
 '''
+![PC0](PC0.png)
+![PC1](PC1.png)
+![PC2](PC2.png)
