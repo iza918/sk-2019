@@ -31,7 +31,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
     ip addr add 172.22.128.2/23 dev enp0s3
 
           PC2
-    ip addr add 172.22.128.2/19 dev enp0s3
+    ip addr add 172.22.160.2/19 dev enp0s3
 
 ### 3) Ustalamy routing 
         PC1
